@@ -1,0 +1,129 @@
+[
+  {
+    "id": "is_real_person",
+    "text": "Is your character a real person?",
+    "attribute": "meta.real_person",
+    "type": "boolean",
+    "answers": ["yes", "no", "idk", "probably", "probably_not"],
+    "effect": {
+      "yes": { "true": 1.0, "false": 0.0 },
+      "no": { "true": 0.0, "false": 1.0 },
+      "probably": { "true": 0.7, "false": 0.3 },
+      "probably_not": { "true": 0.3, "false": 0.7 },
+      "idk": { "true": 0.5, "false": 0.5 }
+    }
+  },
+  {
+    "id": "from_anime",
+    "text": "Is your character from an anime?",
+    "attribute": "tag:from_anime",
+    "type": "tag",
+    "answers": ["yes", "no", "idk", "probably", "probably_not"],
+    "effect": {
+      "yes": { "has": 1.0, "not_has": 0.0 },
+      "no": { "has": 0.0, "not_has": 1.0 },
+      "probably": { "has": 0.7, "not_has": 0.3 },
+      "probably_not": { "has": 0.3, "not_has": 0.7 },
+      "idk": { "has": 0.5, "not_has": 0.5 }
+    }
+  },
+  {
+    "id": "from_youtube",
+    "text": "Is your character mainly known as a YouTuber?",
+    "attribute": "tag:from_youtube",
+    "type": "tag",
+    "answers": ["yes", "no", "idk", "probably", "probably_not"],
+    "effect": {
+      "yes": { "has": 1.0, "not_has": 0.0 },
+      "no": { "has": 0.0, "not_has": 1.0 },
+      "probably": { "has": 0.7, "not_has": 0.3 },
+      "probably_not": { "has": 0.3, "not_has": 0.7 },
+      "idk": { "has": 0.5, "not_has": 0.5 }
+    }
+  },
+  {
+    "id": "from_movie",
+    "text": "Is your character mainly from a live-action or animated movie series?",
+    "attribute": "tag:from_movie",
+    "type": "tag",
+    "answers": ["yes", "no", "idk", "probably", "probably_not"],
+    "effect": {
+      "yes": { "has": 1.0, "not_has": 0.0 },
+      "no": { "has": 0.0, "not_has": 1.0 },
+      "probably": { "has": 0.7, "not_has": 0.3 },
+      "probably_not": { "has": 0.3, "not_has": 0.7 },
+      "idk": { "has": 0.5, "not_has": 0.5 }
+    }
+  },
+  {
+    "id": "is_female",
+    "text": "Is your character female?",
+    "attribute": "meta.gender",
+    "type": "categorical",
+    "categories": ["male", "female", "other", "unknown"],
+    "answers": ["yes", "no", "idk", "probably", "probably_not"],
+    "effect": {
+      "yes": { "female": 1.0 },
+      "no": { "female": 0.0 },
+      "probably": { "female": 0.7 },
+      "probably_not": { "female": 0.3 },
+      "idk": { "female": 0.5 }
+    }
+  },
+  {
+    "id": "has_superpowers",
+    "text": "Does your character have supernatural powers or abilities?",
+    "attribute": "tag:has_superpowers",
+    "type": "tag",
+    "answers": ["yes", "no", "idk", "probably", "probably_not"],
+    "effect": {
+      "yes": { "has": 1.0, "not_has": 0.0 },
+      "no": { "has": 0.0, "not_has": 1.0 },
+      "probably": { "has": 0.7, "not_has": 0.3 },
+      "probably_not": { "has": 0.3, "not_has": 0.7 },
+      "idk": { "has": 0.5, "not_has": 0.5 }
+    }
+  },
+  {
+    "id": "uses_weapon",
+    "text": "Does your character frequently use a weapon?",
+    "attribute": "tag:uses_weapon",
+    "type": "tag",
+    "answers": ["yes", "no", "idk", "probably", "probably_not"],
+    "effect": {
+      "yes": { "has": 1.0, "not_has": 0.0 },
+      "no": { "has": 0.0, "not_has": 1.0 },
+      "probably": { "has": 0.7, "not_has": 0.3 },
+      "probably_not": { "has": 0.3, "not_has": 0.7 },
+      "idk": { "has": 0.5, "not_has": 0.5 }
+    }
+  },
+  {
+    "id": "is_protagonist",
+    "text": "Is your character the main protagonist of their series?",
+    "attribute": "meta.is_protagonist",
+    "type": "boolean",
+    "answers": ["yes", "no", "idk", "probably", "probably_not"],
+    "effect": {
+      "yes": { "true": 1.0, "false": 0.0 },
+      "no": { "true": 0.0, "false": 1.0 },
+      "probably": { "true": 0.7, "false": 0.3 },
+      "probably_not": { "true": 0.3, "false": 0.7 },
+      "idk": { "true": 0.5, "false": 0.5 }
+    }
+  },
+  {
+    "id": "is_from_2010s",
+    "text": "Did your character become popular mainly after 2010?",
+    "attribute": "tag:from_2010s",
+    "type": "tag",
+    "answers": ["yes", "no", "idk", "probably", "probably_not"],
+    "effect": {
+      "yes": { "has": 1.0, "not_has": 0.0 },
+      "no": { "has": 0.0, "not_has": 1.0 },
+      "probably": { "has": 0.7, "not_has": 0.3 },
+      "probably_not": { "has": 0.3, "not_has": 0.7 },
+      "idk": { "has": 0.5, "not_has": 0.5 }
+    }
+  }
+]

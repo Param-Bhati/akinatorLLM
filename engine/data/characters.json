@@ -1,0 +1,386 @@
+[
+  {
+    "id": "naruto_uzumaki",
+    "name": "Naruto Uzumaki",
+    "aliases": ["Naruto"],
+    "category": "anime",
+    "origin": {
+      "franchise": "Naruto",
+      "medium": "anime",
+      "country": "JP"
+    },
+    "meta": {
+      "real_person": false,
+      "gender": "male",
+      "species": "human",
+      "age_group": "teen",
+      "is_protagonist": true,
+      "is_antagonist": false
+    },
+    "tags": [
+      "from_anime",
+      "shonen",
+      "has_superpowers",
+      "uses_magic",
+      "uses_weapon",
+      "ninja",
+      "orange_clothes",
+      "blonde_hair",
+      "spiky_hair",
+      "from_2000s"
+    ],
+    "media": {
+      "image_url": null,
+      "wiki_url": null
+    }
+  },
+  {
+    "id": "monkey_d_luffy",
+    "name": "Monkey D. Luffy",
+    "aliases": ["Luffy"],
+    "category": "anime",
+    "origin": {
+      "franchise": "One Piece",
+      "medium": "anime",
+      "country": "JP"
+    },
+    "meta": {
+      "real_person": false,
+      "gender": "male",
+      "species": "human",
+      "age_group": "teen",
+      "is_protagonist": true,
+      "is_antagonist": false
+    },
+    "tags": [
+      "from_anime",
+      "shonen",
+      "has_superpowers",
+      "uses_magic",
+      "uses_weapon",
+      "pirate",
+      "straw_hat",
+      "black_hair",
+      "from_1990s"
+    ],
+    "media": {
+      "image_url": null,
+      "wiki_url": null
+    }
+  },
+  {
+    "id": "goku",
+    "name": "Goku",
+    "aliases": ["Son Goku"],
+    "category": "anime",
+    "origin": {
+      "franchise": "Dragon Ball",
+      "medium": "anime",
+      "country": "JP"
+    },
+    "meta": {
+      "real_person": false,
+      "gender": "male",
+      "species": "saiyan",
+      "age_group": "adult",
+      "is_protagonist": true,
+      "is_antagonist": false
+    },
+    "tags": [
+      "from_anime",
+      "shonen",
+      "has_superpowers",
+      "uses_magic",
+      "martial_artist",
+      "black_hair",
+      "spiky_hair",
+      "from_1980s"
+    ],
+    "media": {
+      "image_url": null,
+      "wiki_url": null
+    }
+  },
+  {
+    "id": "light_yagami",
+    "name": "Light Yagami",
+    "aliases": ["Kira"],
+    "category": "anime",
+    "origin": {
+      "franchise": "Death Note",
+      "medium": "anime",
+      "country": "JP"
+    },
+    "meta": {
+      "real_person": false,
+      "gender": "male",
+      "species": "human",
+      "age_group": "teen",
+      "is_protagonist": true,
+      "is_antagonist": true
+    },
+    "tags": [
+      "from_anime",
+      "psychological",
+      "no_superpowers",
+      "uses_magic_item",
+      "brown_hair",
+      "student",
+      "from_2000s"
+    ],
+    "media": {
+      "image_url": null,
+      "wiki_url": null
+    }
+  },
+  {
+    "id": "levi_ackerman",
+    "name": "Levi Ackerman",
+    "aliases": ["Levi"],
+    "category": "anime",
+    "origin": {
+      "franchise": "Attack on Titan",
+      "medium": "anime",
+      "country": "JP"
+    },
+    "meta": {
+      "real_person": false,
+      "gender": "male",
+      "species": "human",
+      "age_group": "adult",
+      "is_protagonist": false,
+      "is_antagonist": false
+    },
+    "tags": [
+      "from_anime",
+      "soldier",
+      "uses_weapon",
+      "short_black_hair",
+      "serious_personality",
+      "from_2010s"
+    ],
+    "media": {
+      "image_url": null,
+      "wiki_url": null
+    }
+  },
+  {
+    "id": "iron_man",
+    "name": "Tony Stark",
+    "aliases": ["Iron Man"],
+    "category": "pop_culture",
+    "origin": {
+      "franchise": "Marvel",
+      "medium": "movie",
+      "country": "US"
+    },
+    "meta": {
+      "real_person": false,
+      "gender": "male",
+      "species": "human",
+      "age_group": "adult",
+      "is_protagonist": true,
+      "is_antagonist": false
+    },
+    "tags": [
+      "from_movie",
+      "superhero",
+      "has_superpowers",
+      "uses_technology",
+      "armor_suit",
+      "billionaire",
+      "from_2000s"
+    ],
+    "media": {
+      "image_url": null,
+      "wiki_url": null
+    }
+  },
+  {
+    "id": "spider_man_peter_parker",
+    "name": "Peter Parker",
+    "aliases": ["Spider-Man", "Spiderman"],
+    "category": "pop_culture",
+    "origin": {
+      "franchise": "Marvel",
+      "medium": "movie",
+      "country": "US"
+    },
+    "meta": {
+      "real_person": false,
+      "gender": "male",
+      "species": "human",
+      "age_group": "teen",
+      "is_protagonist": true,
+      "is_antagonist": false
+    },
+    "tags": [
+      "from_movie",
+      "superhero",
+      "has_superpowers",
+      "masked",
+      "web_shooter",
+      "from_2000s"
+    ],
+    "media": {
+      "image_url": null,
+      "wiki_url": null
+    }
+  },
+  {
+    "id": "harry_potter",
+    "name": "Harry Potter",
+    "aliases": [],
+    "category": "pop_culture",
+    "origin": {
+      "franchise": "Harry Potter",
+      "medium": "movie",
+      "country": "UK"
+    },
+    "meta": {
+      "real_person": false,
+      "gender": "male",
+      "species": "human",
+      "age_group": "teen",
+      "is_protagonist": true,
+      "is_antagonist": false
+    },
+    "tags": [
+      "from_movie",
+      "wizard",
+      "has_superpowers",
+      "uses_magic",
+      "uses_weapon",
+      "glasses",
+      "brown_hair",
+      "from_2000s"
+    ],
+    "media": {
+      "image_url": null,
+      "wiki_url": null
+    }
+  },
+  {
+    "id": "mrbeast",
+    "name": "MrBeast",
+    "aliases": ["Jimmy Donaldson"],
+    "category": "youtuber",
+    "origin": {
+      "franchise": "YouTube",
+      "medium": "internet",
+      "country": "US"
+    },
+    "meta": {
+      "real_person": true,
+      "gender": "male",
+      "species": "human",
+      "age_group": "adult",
+      "is_protagonist": false,
+      "is_antagonist": false
+    },
+    "tags": [
+      "from_youtube",
+      "youtuber",
+      "challenge_videos",
+      "philanthropist",
+      "english_speaking",
+      "from_2010s"
+    ],
+    "media": {
+      "image_url": null,
+      "wiki_url": null
+    }
+  },
+  {
+    "id": "dream_youtuber",
+    "name": "Dream",
+    "aliases": [],
+    "category": "youtuber",
+    "origin": {
+      "franchise": "YouTube",
+      "medium": "internet",
+      "country": "US"
+    },
+    "meta": {
+      "real_person": true,
+      "gender": "male",
+      "species": "human",
+      "age_group": "adult",
+      "is_protagonist": false,
+      "is_antagonist": false
+    },
+    "tags": [
+      "from_youtube",
+      "youtuber",
+      "minecraft_content",
+      "masked",
+      "english_speaking",
+      "from_2010s"
+    ],
+    "media": {
+      "image_url": null,
+      "wiki_url": null
+    }
+  },
+  {
+    "id": "pewdiepie",
+    "name": "PewDiePie",
+    "aliases": ["Felix Kjellberg"],
+    "category": "youtuber",
+    "origin": {
+      "franchise": "YouTube",
+      "medium": "internet",
+      "country": "SE"
+    },
+    "meta": {
+      "real_person": true,
+      "gender": "male",
+      "species": "human",
+      "age_group": "adult",
+      "is_protagonist": false,
+      "is_antagonist": false
+    },
+    "tags": [
+      "from_youtube",
+      "youtuber",
+      "gaming_content",
+      "english_speaking",
+      "from_2010s"
+    ],
+    "media": {
+      "image_url": null,
+      "wiki_url": null
+    }
+  },
+  {
+    "id": "markiplier",
+    "name": "Markiplier",
+    "aliases": ["Mark Fischbach"],
+    "category": "youtuber",
+    "origin": {
+      "franchise": "YouTube",
+      "medium": "internet",
+      "country": "US"
+    },
+    "meta": {
+      "real_person": true,
+      "gender": "male",
+      "species": "human",
+      "age_group": "adult",
+      "is_protagonist": false,
+      "is_antagonist": false
+    },
+    "tags": [
+      "from_youtube",
+      "youtuber",
+      "gaming_content",
+      "horror_games",
+      "english_speaking",
+      "from_2010s"
+    ],
+    "media": {
+      "image_url": null,
+      "wiki_url": null
+    }
+  }
+]

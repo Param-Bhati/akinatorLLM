@@ -1,0 +1,20 @@
+{
+  "name": "llm-akinator-bot",
+  "version": "1.0.0",
+  "description": "Akinator-style Discord bot powered by Groq + LLaMA-3 8B",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.4.5",
+    "groq-sdk": "^0.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "license": "MIT"
+}
