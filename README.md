@@ -114,4 +114,21 @@ so yeah, pure prompt-based protocol = cope.
    - if it gives anything else, reject / re-ask / normalize  
    - consider using JSON or some tiny schema instead of pure English when you actually care about protocol.
 
-4. 
+4. **LLM = component, not the whole damn game**
+
+   LLM should:
+   - generate questions
+   - interpret fuzzy human answers
+   - maybe explain its final guess
+
+   but it should **not** be the game engine, rule enforcer, and state manager all at once. real Akinator works because the rule system is solid, not because it “feels” like guessing. [web:155][web:159][web:164]
+
+## what we’d do different next time
+
+for a v2 that doesn’t suck:
+
+- add a real **character database** and track probabilities / filters properly
+- split genie/player into **separate prompts / calls** with hard role separation
+- run a self-check where the model verifies that its guess is consistent with the Q&A before it says it out loud [web:155][web:168]
+
+for now this repo is basically: “here’s how NOT to build Akinator with just an LLM and vibes.” the model is definitely smart enough to *play* the game, but without scaffolding and hard constraints it just drifts into generic-chat mode and the whole thing collapses in dumb ways. [web:124][web:155][web:170]
